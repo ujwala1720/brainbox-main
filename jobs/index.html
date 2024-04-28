@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Resume Matcher</h1>
+    <form id="upload-form">
+        <input type="file" name="resume" id="resume-file" accept=".txt">
+        <button type="submit">Upload</button>
+    </form>
+    <div id="results" style="display: none;">
+        <h2>Most Suited Job:</h2>
+        <p id="most-suited-job"></p>
+        <h3>Top Five Matches:</h3>
+        <ul id="top-five-matches"></ul>
+        <h3>Bottom Five Matches:</h3>
+        <ul id="bottom-five-matches"></ul>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

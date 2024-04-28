@@ -1,0 +1,86 @@
+.logincontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(#0D051B,#05072D);
+}
+
+.image-box{
+    background-color: grey;
+    border-radius: 30px;
+}
+img {
+    border-radius: 10px;
+
+    width: 49vw;
+    height: auto;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 92vh;
+    background:
+    radial-gradient(circle 80px at 70% 30%, blue,rgba(255,255,255,0)),
+    radial-gradient(circle 100px at 40% 60%, blue,rgba(255,255,255,0));
+
+}
+
+form{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+input{
+    height: 45px;
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px ;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    align-self: flex-end;
+}
+.login{
+    height: 45px;
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+p{
+    color: white;
+    font-family:sans-serif;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 5px ;
+}
+h1{
+    margin-bottom: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    width: 380px;
+}

@@ -1,0 +1,100 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  display: grid;
+  grid-template-columns:  19vw 19vw 19vw 19vw 19vw;
+  grid-template-rows: 19vh 19vh 19vh 19vh 15vh;
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.elements{
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.element1{
+  grid-area: 1/1/5/5;
+}
+.element2{
+  grid-area: 1/5/2/6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.element3{
+  grid-area: 2/5/5/6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.element5{
+  grid-area: 5/3/5/6;
+}
+
+#startButton {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  width: 70px;
+  height: auto;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#resetButton {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  width: 70px;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  width: 60px;
+  border: none;
+  border-radius: 10px;
+}
+
+#taskInput {
+  margin-bottom: 5px;
+  height: 10px;
+  padding: 15px;
+  border: none;
+  
+  outline:none;
+}
+
+#taskInput :focus{
+  border-style: none;
+}

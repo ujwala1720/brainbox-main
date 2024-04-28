@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements-container{
+    background-color: rgb(17, 17, 17);
+    display: grid;
+    grid-template-columns: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 10vw 10vw 10vw 10vw 10vw;
+}
